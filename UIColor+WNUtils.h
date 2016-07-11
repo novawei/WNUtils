@@ -11,6 +11,8 @@
 @interface UIColor (WNUtils)
 
 + (UIColor *)colorWithHex:(NSInteger)hex;
++ (UIColor *)highlightColorWithHex:(NSInteger)hex;
 + (UIColor *)colorWithHex:(NSInteger)hex alpha:(CGFloat)alpha;
++ (UIColor *)randomColor;
 
 @end
